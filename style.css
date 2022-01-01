@@ -7,6 +7,27 @@
 #projects {
   background-color: #bad9e969;
 }
+.pushable {
+  background: rgb(19, 111, 172);
+  border-radius: 12px;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  outline-offset: 4px;
+}
+.front {
+  display: block;
+  padding: 5px 13px;
+  border-radius: 12px;
+  font-size: 1rem;
+  background: rgb(27, 152, 235);
+  color: white;
+  transform: translateY(-6px);
+}
+
+.pushable:active .front {
+  transform: translateY(-2px);
+}
 
 section {
   padding-top: 5rem;
